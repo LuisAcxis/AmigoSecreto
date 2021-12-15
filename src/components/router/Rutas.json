@@ -1,0 +1,39 @@
+{
+  "login": {
+    "admin": "/login/admin",
+    "office": "/login/office",
+    "shop": "/login/shop"
+  },
+  "admin": {
+    "index": "/admin",
+    "appointments": {
+      "create": "/admin/citas/crear",
+      "list": "/admin/citas"
+    },
+    "stores": {
+      "create": "/admin/sucursales/crear",
+      "list": "/admin/sucursales",
+      "services": {
+        "create": "/admin/sucursales/servicios/crear",
+        "list": "/admin/sucursales/servicios"
+      }
+    },
+    "users": {
+      "create": "/admin/usuarios/crear",
+      "list": "/admin/usuarios"
+    },
+    "origins": {
+      "create": "/admin/origenes/crear",
+      "list": "/admin/origenes"
+    },
+    "account": {
+      "edit": "/admin/cuenta"
+    }
+  },
+  "office": {
+    "index": "/office"
+  },
+  "shop": {
+    "index": "/shop"
+  }
+}
